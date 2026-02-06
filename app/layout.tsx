@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Amelii - Tu app de notas inteligente y segura",
-  description: "Crea, organiza y sincroniza tus notas con formato enriquecido. Backup automático en Google Drive, búsqueda rápida y total privacidad. Disponible para Android.",
-  keywords: ["notas", "app de notas", "android", "backup", "sincronización", "privacidad", "google drive"],
-  authors: [{ name: "Amelii Team" }],
+  title: "Mis Apps - Soluciones móviles",
+  description: "Portfolio de aplicaciones móviles. Amelii: app de notas inteligente con sincronización automática. Más apps próximamente.",
+  keywords: ["apps android", "aplicaciones móviles", "amelii", "notas", "desarrollo móvil"],
+  authors: [{ name: "Loogier Apps" }],
   openGraph: {
-    title: "Amelii - Tu app de notas inteligente y segura",
-    description: "Crea, organiza y sincroniza tus notas con formato enriquecido. Backup automático en Google Drive.",
+    title: "Mis Apps - Soluciones móviles",
+    description: "Portfolio de aplicaciones móviles para Android",
     type: "website",
   },
 };
