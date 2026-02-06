@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden px-6 py-24 sm:py-32 lg:px-8">
@@ -33,17 +35,15 @@ export function Hero() {
         {/* App Preview Placeholder */}
         <div className="mt-16 flow-root sm:mt-24">
           <div className="relative rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 dark:bg-gray-100/5 dark:ring-gray-100/10 lg:rounded-2xl lg:p-4">
-            <div className="aspect-[9/16] w-full max-w-xs mx-auto overflow-hidden rounded-lg bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-950 dark:to-cyan-950 shadow-2xl">
-              <div className="flex h-full flex-col items-center justify-center p-8 text-center">
-                <div className="rounded-full bg-teal-600 p-4 mb-4">
-                  <svg className="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-                  </svg>
-                </div>
-                <p className="text-sm font-medium text-gray-600 dark:text-gray-300">
-                  Screenshot de la app
-                </p>
-              </div>
+            <div className="w-full max-w-xs mx-auto overflow-hidden rounded-lg shadow-2xl bg-white dark:bg-gray-900">
+              <Image
+                src="/screenshots/hero-screenshot.png"
+                alt="Captura de pantalla de la app Amelii mostrando lista de notas"
+                width={1080}
+                height={1920}
+                className="w-full h-auto"
+                priority
+              />
             </div>
           </div>
         </div>

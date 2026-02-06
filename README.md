@@ -1,36 +1,182 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Amelii Landing Page
 
-## Getting Started
+Landing page moderna para la app de notas Amelii, construida con Next.js 16, TypeScript y Tailwind CSS.
 
-First, run the development server:
+## 🚀 Características
+
+- ✅ Diseño moderno y responsivo
+- ✅ Tema claro y oscuro automático
+- ✅ Optimizado para SEO
+- ✅ Componentes reutilizables
+- ✅ TypeScript para seguridad de tipos
+- ✅ Tailwind CSS para estilos
+- ✅ Build optimizado para producción
+
+## 📋 Secciones
+
+1. **Hero**: Presentación principal con CTA de descarga
+2. **Features**: 6 características principales de la app
+3. **Security**: Capas de seguridad implementadas
+4. **Screenshots**: Galería de imágenes de la app
+5. **FAQ**: Preguntas frecuentes con acordeón interactivo
+6. **Footer**: Enlaces y descarga del APK
+
+## 🛠️ Desarrollo Local
+
+### Prerrequisitos
+
+- Node.js 18+ instalado
+- npm o yarn
+
+### Instalación
+
+```bash
+# Ya está instalado, pero si necesitas reinstalar:
+npm install
+```
+
+### Ejecutar en desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build para producción
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🌐 Despliegue en Vercel (Gratis)
 
-To learn more about Next.js, take a look at the following resources:
+### Opción 1: Desde GitHub (Recomendado)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Sube el código a GitHub:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/amelii-landing.git
+   git push -u origin main
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Conecta con Vercel:**
+   - Ve a [vercel.com](https://vercel.com)
+   - Sign in con GitHub
+   - Click "Import Project"
+   - Selecciona tu repositorio
+   - Vercel detectará automáticamente Next.js
+   - Click "Deploy"
 
-## Deploy on Vercel
+3. **Configuración automática:**
+   - Build Command: `npm run build`
+   - Output Directory: `.next`
+   - Install Command: `npm install`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Tu sitio estará en vivo en:**
+   - `https://amelii-landing.vercel.app` (o el nombre que elijas)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Opción 2: Desde CLI de Vercel
+
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Login
+vercel login
+
+# Deploy
+vercel
+
+# Deploy a producción
+vercel --prod
+```
+
+### Variables de Entorno (si las necesitas después)
+
+Crea un archivo `.env.local`:
+
+```env
+# Añade aquí tus variables si es necesario
+```
+
+## 📝 Personalización
+
+### Agregar Screenshots Reales
+
+1. Coloca tus screenshots en `public/screenshots/`
+2. Actualiza el componente `components/Screenshots.tsx`
+3. Reemplaza los placeholders con:
+   ```tsx
+   <Image 
+     src="/screenshots/imagen.png" 
+     alt="Screenshot"
+     width={300}
+     height={600}
+   />
+   ```
+
+### Actualizar APK para Descarga
+
+1. Coloca tu APK en `public/amelii-release.apk`
+2. El botón de descarga ya apunta a esa ruta
+
+### Cambiar Colores
+
+El tema usa el color teal (#00897B). Para cambiarlo:
+
+1. Abre `tailwind.config.ts`
+2. Modifica los colores en el theme
+3. O reemplaza `teal-600` por otro color en los componentes
+
+## 📦 Estructura del Proyecto
+
+```
+landingpages/
+├── app/
+│   ├── layout.tsx     # Layout principal con metadata
+│   ├── page.tsx       # Página principal
+│   └── globals.css    # Estilos globales
+├── components/
+│   ├── Hero.tsx       # Sección hero
+│   ├── Features.tsx   # Características
+│   ├── Security.tsx   # Seguridad
+│   ├── Screenshots.tsx # Screenshots
+│   ├── FAQ.tsx        # Preguntas frecuentes
+│   └── Footer.tsx     # Footer con descarga
+├── public/            # Archivos estáticos
+└── README.md
+```
+
+## 🎨 Tecnologías
+
+- **Framework**: Next.js 16 con App Router
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS
+- **Fuentes**: Geist Sans y Geist Mono
+- **Deploy**: Vercel
+
+## 📄 Licencia
+
+Proyecto desarrollado para Amelii.
+
+## 🤝 Contribuir
+
+1. Fork el proyecto
+2. Crea tu rama (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+---
+
+**Próximos pasos:**
+1. ✅ Proyecto creado y corriendo
+2. 📸 Agrega screenshots reales de la app
+3. 📱 Coloca el APK en `/public/amelii-release.apk`
+4. 🚀 Deploy a Vercel
+5. 🌐 Comparte tu link!
