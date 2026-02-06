@@ -11,7 +11,15 @@ export default function Home() {
       features: ['Editor enriquecido', 'Sync con Google Drive', 'Cifrado SHA-256'],
       status: 'Disponible'
     },
-    // Aquí agregarás tu segunda app cuando esté lista
+    {
+      name: 'Control Horario',
+      description: 'App para registrar horas trabajadas con cálculo automático y PDF',
+      icon: '⏰',
+      href: '/control-horario',
+      color: 'blue',
+      features: ['Registro automático', 'Cálculo de horas', 'Exportar a PDF'],
+      status: 'Beta Cerrada'
+    },
   ];
 
   return (
