@@ -42,7 +42,7 @@ export function Hero() {
           <div className="relative rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 dark:bg-gray-100/5 dark:ring-gray-100/10 lg:rounded-2xl lg:p-4">
             <div className="w-full max-w-xs mx-auto overflow-hidden rounded-lg shadow-2xl bg-white dark:bg-gray-900">
               <Image
-                src="/screenshots/hero-screenshot.png"
+                src="/screenshots/hero-screenshot.png?v=2"
                 alt="Captura de pantalla de la app Amelii mostrando lista de notas"
                 width={1080}
                 height={1920}
