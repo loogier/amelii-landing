@@ -5,17 +5,17 @@ export function Screenshots() {
     {
       title: 'Editor Enriquecido',
       description: 'Formatea tus notas con herramientas profesionales',
-      image: '/screenshots/screenshot-editor.v2.png',
+      image: '/screenshots/screenshot-editor.v3.png',
     },
     {
       title: 'Lista de Notas',
       description: 'Organiza y encuentra tus notas rápidamente',
-      image: '/screenshots/screenshot-list.v2.png',
+      image: '/screenshots/screenshot-list.v3.png',
     },
     {
       title: 'Búsqueda Rápida',
       description: 'Filtra por fecha y busca con precisión',
-      image: '/screenshots/screenshot-search.v2.png',
+      image: '/screenshots/screenshot-search.v3.png',
     },
   ];
 
