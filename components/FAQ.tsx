@@ -28,7 +28,7 @@ export function FAQ() {
     },
     {
       question: '¿Cuántas notas puedo tener?',
-      answer: 'La app está optimizada para manejar miles de notas. Los límites de seguridad son: máximo 100,000 notas por backup, 1MB por nota individual, y 100MB de tamaño total de backup. Son límites muy generosos que cubren casos de uso extremos.',
+      answer: 'La app está optimizada para manejar miles de notas. Los límites de seguridad son: máximo 100,000 notas por backup, 1MB por nota individual y 100MB de tamaño total de backup. Son límites muy generosos que cubren casos de uso extremos.',
     },
     {
       question: '¿Funciona en varios dispositivos?',

@@ -8,7 +8,7 @@ export function Footer() {
               Descarga Amelii
             </h2>
             <p className="mt-4 text-lg text-gray-300">
-              Versión 1.1.4+7 • Android 7.0+ (API 24)
+              Versión 1.1.4+7 · Android 7.0+ (API 24)
             </p>
           </div>
           <a

@@ -32,7 +32,7 @@ export function Hero() {
               href="#features"
               className="text-lg font-semibold leading-6 text-gray-900 dark:text-white hover:text-teal-600 transition-colors"
             >
-              Ver características <span aria-hidden="true">→</span>
+              Ver características <span aria-hidden="true"></span>
             </a>
           </div>
         </div>

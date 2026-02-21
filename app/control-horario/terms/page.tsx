@@ -28,7 +28,7 @@ export default function ControlHorarioTermsPage() {
 
         >
 
-          ? Volver a Control Horario
+          ← Volver a Control Horario
 
         </Link>
 
@@ -332,7 +332,7 @@ export default function ControlHorarioTermsPage() {
 
           >
 
-            ? Volver a Control Horario
+            ← Volver a Control Horario
 
           </Link>
 
