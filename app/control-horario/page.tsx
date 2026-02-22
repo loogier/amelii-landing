@@ -114,7 +114,7 @@ export default function ControlHorarioPage() {
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
                   </svg>
-                  Descargar Beta
+                  Descargar APK v1.0.1
                 </a>
                 <Link
                   href="/"
@@ -125,7 +125,7 @@ export default function ControlHorarioPage() {
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
                 <span className="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-white/10 px-3 py-1 ring-1 ring-gray-200/70 dark:ring-white/10">
-                  Beta cerrada en Google Play
+                  APK directo disponible
                 </span>
                 <span>Android 7.0+ (API 24)</span>
               </div>
@@ -539,7 +539,7 @@ export default function ControlHorarioPage() {
               <p className="mt-4 text-lg text-gray-300">
 
 
-                Beta cerrada  Android 7.0+ (API 24)
+                APK v1.0.1  Android 7.0+ (API 24)
 
 
               </p>
@@ -568,7 +568,7 @@ export default function ControlHorarioPage() {
               </svg>
 
 
-              Acceder a la Beta
+              Descargar APK v1.0.1
 
 
             </a>
