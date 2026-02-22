@@ -83,9 +83,8 @@ export default function ControlHorarioPage() {
             </div>
 
             <a
-              href="https://play.google.com/store/apps/details?id=com.loogier.controlhorario"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/control-horario-v1.0.1.apk"
+              download
               className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-blue-500 transition-colors"
             >
               Descargar
@@ -108,9 +107,8 @@ export default function ControlHorarioPage() {
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
-                  href="https://play.google.com/store/apps/details?id=com.loogier.controlhorario"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/control-horario-v1.0.1.apk"
+                  download
                   className="rounded-md bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-colors inline-flex items-center gap-2"
                 >
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -551,15 +549,8 @@ export default function ControlHorarioPage() {
 
 
             <a
-
-
-              href="https://play.google.com/store/apps/details?id=com.loogier.controlhorario"
-
-
-              target="_blank"
-
-
-              rel="noopener noreferrer"
+              href="/control-horario-v1.0.1.apk"
+              download
 
 
               className="rounded-md bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:bg-blue-500 transition-colors inline-flex items-center gap-3"
