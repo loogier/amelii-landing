@@ -83,7 +83,7 @@ export default function ControlHorarioPage() {
             </div>
 
             <a
-              href="/control-horario-v1.0.1.apk"
+              href="/app-arm64-v8a-release.apk"
               download
               className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-blue-500 transition-colors"
             >
@@ -107,7 +107,7 @@ export default function ControlHorarioPage() {
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
-                  href="/control-horario-v1.0.1.apk"
+                  href="/app-arm64-v8a-release.apk"
                   download
                   className="rounded-md bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-colors inline-flex items-center gap-2"
                 >
@@ -549,7 +549,7 @@ export default function ControlHorarioPage() {
 
 
             <a
-              href="/control-horario-v1.0.1.apk"
+              href="/app-arm64-v8a-release.apk"
               download
 
 
