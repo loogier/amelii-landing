@@ -82,13 +82,9 @@ export default function ControlHorarioPage() {
               </Link>
             </div>
 
-            <a
-              href="/app-arm64-v8a-release.apk"
-              download
-              className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-blue-500 transition-colors"
-            >
-              Descargar
-            </a>
+            <span className="rounded-full bg-gray-400 px-4 py-2 text-sm font-semibold text-white shadow-md cursor-not-allowed">
+              Descarga deshabilitada
+            </span>
           </nav>
         </header>
 
@@ -106,16 +102,14 @@ export default function ControlHorarioPage() {
                 Registra entrada y salida en segundos, calcula horas por tipo de turno y entrega reportes listos en PDF.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <a
-                  href="/app-arm64-v8a-release.apk"
-                  download
-                  className="rounded-md bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-colors inline-flex items-center gap-2"
+                <span
+                  className="rounded-md bg-gray-400 px-8 py-3.5 text-lg font-semibold text-white shadow-sm inline-flex items-center gap-2 cursor-not-allowed"
                 >
                   <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
                   </svg>
-                  Descargar APK v1.0.1
-                </a>
+                  Descarga temporalmente deshabilitada
+                </span>
                 <Link
                   href="/"
                   className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
@@ -125,7 +119,7 @@ export default function ControlHorarioPage() {
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
                 <span className="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-white/10 px-3 py-1 ring-1 ring-gray-200/70 dark:ring-white/10">
-                  APK directo disponible
+                  APK no disponible temporalmente
                 </span>
                 <span>Android 7.0+ (API 24)</span>
               </div>
@@ -548,14 +542,8 @@ export default function ControlHorarioPage() {
             </div>
 
 
-            <a
-              href="/app-arm64-v8a-release.apk"
-              download
-
-
-              className="rounded-md bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg hover:bg-blue-500 transition-colors inline-flex items-center gap-3"
-
-
+            <span
+              className="rounded-md bg-gray-400 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors inline-flex items-center gap-3 cursor-not-allowed"
             >
 
 
@@ -568,10 +556,8 @@ export default function ControlHorarioPage() {
               </svg>
 
 
-              Descargar APK v1.0.1
-
-
-            </a>
+              Descarga temporalmente deshabilitada
+            </span>
 
 
             <p className="text-sm text-gray-400 max-w-2xl text-center">
