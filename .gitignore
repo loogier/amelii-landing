@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# mobile artifacts and signing keys
+*.apk
+*.jks
+*.keystore
+
