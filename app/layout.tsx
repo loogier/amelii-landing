@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   description: "Portfolio de aplicaciones móviles. Amelii: app de notas inteligente con sincronización automática. Más apps próximamente.",
   keywords: ["apps android", "aplicaciones móviles", "amelii", "notas", "desarrollo móvil"],
   authors: [{ name: "Loogier Apps" }],
+  icons: {
+    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+    shortcut: ["/favicon.ico"],
+    apple: ["/favicon.ico"],
+  },
   openGraph: {
     title: "Mis Apps - Soluciones móviles",
     description: "Portfolio de aplicaciones móviles para Android",

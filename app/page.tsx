@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const apps = [
@@ -58,8 +59,15 @@ export default function Home() {
         <header className="mx-auto max-w-7xl px-6 pt-8 lg:px-8">
           <nav className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-sm font-bold text-white shadow-md dark:bg-white dark:text-gray-900">
-                LA
+              <div className="h-10 w-10 overflow-hidden rounded-xl shadow-md ring-1 ring-black/5 dark:ring-white/10">
+                <Image
+                  src="/ico.jpg"
+                  alt="Logo Loogier Apps"
+                  width={40}
+                  height={40}
+                  className="h-full w-full object-cover"
+                  priority
+                />
               </div>
               <div className="leading-tight">
                 <p className="text-sm font-semibold text-gray-900 dark:text-white">Loogier Apps</p>
