@@ -216,9 +216,27 @@ export default function ControlHorarioPrivacyPage() {
             </p>
           </section>
 
+          <section className="mt-8" id="eliminar-cuenta">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
+              13. Eliminacion de cuenta y datos
+            </h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              Control Horario no crea cuentas propias en servidores del desarrollador.
+              Para eliminar completamente tu cuenta y datos asociados, sigue estos pasos:
+            </p>
+            <ol className="list-decimal pl-6 text-gray-600 dark:text-gray-300 space-y-2">
+              <li><strong>Eliminar datos locales:</strong> Desinstala la aplicacion del dispositivo. Todos los registros almacenados localmente se eliminaran de forma permanente.</li>
+              <li><strong>Eliminar backup de Google Drive:</strong> Si activaste la copia de seguridad, accede a <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Drive</a> → carpeta <em>Copia de seguridad de Apps</em> → elimina la carpeta de Control Horario. Alternativamente, desde la app ve a <em>Configuracion → Backup en Drive → Eliminar backup</em>.</li>
+              <li><strong>Revocar acceso OAuth de Google:</strong> Accede a <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">myaccount.google.com/permissions</a> → busca <em>Control Horario</em> → pulsa <em>Eliminar acceso</em>.</li>
+            </ol>
+            <p className="text-gray-600 dark:text-gray-300 mt-4">
+              Una vez completados estos pasos, no queda ningun dato tuyo accesible por la aplicacion ni por el desarrollador.
+            </p>
+          </section>
+
           <section className="mt-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              13. Contacto
+              14. Contacto
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Si tienes preguntas sobre esta Politica de Privacidad, contactanos:
