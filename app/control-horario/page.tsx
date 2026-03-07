@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
-
-
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -291,7 +290,133 @@ export default function ControlHorarioPage() {
       </div>
 
 
+      {/* Screenshots Section */}
+      <div className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900 py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Capturas de pantalla
+            </h2>
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              Explora la interfaz intuitiva de Control Horario
+            </p>
+          </div>
 
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/login.png"
+                alt="Pantalla de inicio de sesión"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Inicio de sesión</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Acceso seguro con PIN</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/registros.png"
+                alt="Lista de registros"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Registros</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Historial de horas</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/vista-tabla.png"
+                alt="Vista en tabla"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Vista tabla</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Resumen visual</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/edicion.png"
+                alt="Edición de registro"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Edición</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Modifica tus registros</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/menu.jpg"
+                alt="Menú principal"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Menú</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Opciones principales</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/personalizar.jpg"
+                alt="Personalización"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Personalización</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Configura a tu gusto</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/seguridad.png"
+                alt="Configuración de seguridad"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Seguridad</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Protege tu información</p>
+              </div>
+            </div>
+
+            <div className="relative overflow-hidden rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow">
+              <Image
+                src="/screenshots/control-horario/feedback.png"
+                alt="Feedback"
+                width={300}
+                height={600}
+                className="w-full h-auto"
+              />
+              <div className="p-4">
+                <h3 className="font-semibold text-gray-900 dark:text-white">Feedback</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-300">Envía tus comentarios</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       {/* Use Cases Section */}
