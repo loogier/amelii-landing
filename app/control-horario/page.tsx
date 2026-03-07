@@ -149,6 +149,7 @@ export default function ControlHorarioPage() {
                     loop
                     muted
                     playsInline
+                    controls
                   >
                     <source src="/screenshots/control-horario/videopublicidad/publi.mp4" type="video/mp4" />
                     Tu navegador no soporta la reproducción de video.
