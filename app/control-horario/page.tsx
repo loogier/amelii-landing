@@ -142,36 +142,17 @@ export default function ControlHorarioPage() {
             <div className="lg:pl-8">
               <div className="relative mx-auto max-w-md">
                 <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-b from-blue-500/20 via-transparent to-cyan-400/20 blur-2xl" />
-                <div className="relative rounded-[2.5rem] border border-blue-100 bg-white/90 p-6 shadow-2xl dark:border-white/10 dark:bg-gray-900/70">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-blue-600 dark:text-blue-300">Hoy</span>
-                    <span className="rounded-full bg-blue-50 px-2 py-0.5 text-xs text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
-                      8h 30m
-                    </span>
-                  </div>
-
-                  <div className="mt-6 space-y-3">
-                    <div className="rounded-2xl border border-gray-200/70 bg-white p-4 shadow-sm dark:border-gray-700/60 dark:bg-gray-800">
-                      <p className="text-xs text-gray-500 dark:text-gray-400">Entrada</p>
-                      <p className="text-lg font-semibold text-gray-900 dark:text-white">08:04</p>
-                    </div>
-                    <div className="rounded-2xl border border-gray-200/70 bg-white p-4 shadow-sm dark:border-gray-700/60 dark:bg-gray-800">
-                      <p className="text-xs text-gray-500 dark:text-gray-400">Salida</p>
-                      <p className="text-lg font-semibold text-gray-900 dark:text-white">16:34</p>
-                    </div>
-                  </div>
-
-                  <div className="mt-6 rounded-2xl bg-gradient-to-r from-blue-600 to-cyan-500 p-4 text-white shadow-lg">
-                    <p className="text-xs uppercase tracking-wide text-white/80">Resumen semanal</p>
-                    <div className="mt-2 flex items-end justify-between">
-                      <p className="text-2xl font-semibold">42h 15m</p>
-                      <p className="text-sm text-white/80">+2h vs. semana pasada</p>
-                    </div>
-                  </div>
-
-                  <p className="mt-6 text-center text-xs text-gray-500 dark:text-gray-400">
-                    Próximamente: capturas reales de la app
-                  </p>
+                <div className="relative overflow-hidden rounded-[2.5rem] border border-blue-100 shadow-2xl dark:border-white/10">
+                  <video
+                    className="w-full h-auto"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  >
+                    <source src="/screenshots/control-horario/videopublicidad/publi.mp4" type="video/mp4" />
+                    Tu navegador no soporta la reproducción de video.
+                  </video>
                 </div>
               </div>
             </div>
