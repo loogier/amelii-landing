@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 export const metadata = {
 
-  title: 'Terminos de Uso - Control Horario',
+  title: 'Términos de Uso - Control Horario',
 
-  description: 'Terminos de uso y condiciones de servicio de Control Horario.',
+  description: 'Términos de uso y condiciones de servicio de Control Horario.',
 
 };
 
@@ -36,7 +36,7 @@ export default function ControlHorarioTermsPage() {
 
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl mb-8">
 
-          Terminos de Uso
+          Términos de Uso
 
         </h1>
 
@@ -46,7 +46,7 @@ export default function ControlHorarioTermsPage() {
 
           <p className="text-gray-600 dark:text-gray-300">
 
-            <strong>Ultima actualizacion:</strong> 5 de febrero de 2026
+            <strong>Última actualización:</strong> 5 de febrero de 2026
 
           </p>
 
@@ -56,13 +56,13 @@ export default function ControlHorarioTermsPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
 
-              1. Aceptacion de los terminos
+              1. Aceptación de los términos
 
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300">
 
-              Al usar Control Horario ("la App"), aceptas estos Terminos de Uso. Si no estas de acuerdo,
+              Al usar Control Horario ("la App"), aceptas estos Términos de Uso. Si no estás de acuerdo,
 
               no uses la App.
 
@@ -128,15 +128,15 @@ export default function ControlHorarioTermsPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
 
-              4. Backups y restauracion
+              4. Backups y restauración
 
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300 mb-4">
 
-              La app crea backups locales automaticos y permite crear backups portables cifrados.
+              La app crea backups locales automáticos y permite crear backups portables cifrados.
 
-              Puedes restaurarlos desde configuracion. Si conectas Google Drive, tambien puedes
+              Puedes restaurarlos desde configuración. Si conectas Google Drive, también puedes
 
               sincronizar y restaurar backups en tu cuenta.
 
@@ -156,9 +156,9 @@ export default function ControlHorarioTermsPage() {
 
             <p className="text-gray-600 dark:text-gray-300">
 
-              Puedes proteger el acceso con PIN, patron o biometria. Es tu responsabilidad mantener
+              Puedes proteger el acceso con PIN, patrón o biometría. Es tu responsabilidad mantener
 
-              seguro tu dispositivo y tus metodos de acceso.
+              seguro tu dispositivo y tus métodos de acceso.
 
             </p>
 
@@ -270,13 +270,13 @@ export default function ControlHorarioTermsPage() {
 
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
 
-              11. Cambios a estos terminos
+              11. Cambios a estos términos
 
             </h2>
 
             <p className="text-gray-600 dark:text-gray-300">
 
-              Podemos actualizar estos terminos ocasionalmente. Publicaremos los cambios en esta pagina.
+              Podemos actualizar estos términos ocasionalmente. Publicaremos los cambios en esta página.
 
             </p>
 
@@ -294,7 +294,7 @@ export default function ControlHorarioTermsPage() {
 
             <p className="text-gray-600 dark:text-gray-300 mb-4">
 
-              Si tienes preguntas sobre estos Terminos de Uso, contactanos:
+              Si tienes preguntas sobre estos Términos de Uso, contáctanos:
 
             </p>
 
@@ -312,7 +312,7 @@ export default function ControlHorarioTermsPage() {
 
             <p className="text-sm text-gray-600 dark:text-gray-300">
 
-              <strong>Al usar Control Horario, confirmas que has leido y aceptas estos Terminos de Uso.</strong>
+              <strong>Al usar Control Horario, confirmas que has leído y aceptas estos Términos de Uso.</strong>
 
             </p>
 

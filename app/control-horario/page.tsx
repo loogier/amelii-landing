@@ -222,7 +222,7 @@ export default function ControlHorarioPage() {
               <div className="relative rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-8 shadow-sm hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4"></div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Registro rpido
+                  Registro rápido
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
                   Registra tu entrada y salida con un solo tap. Interfaz simple e intuitiva para uso diario.
@@ -245,7 +245,7 @@ export default function ControlHorarioPage() {
                   Exportar a PDF
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Genera reportes profesionales en PDF por da o rango de fechas.
+                  Genera reportes profesionales en PDF por día o rango de fechas.
                 </p>
               </div>
 
@@ -464,7 +464,7 @@ export default function ControlHorarioPage() {
               <p className="text-gray-600 dark:text-gray-300">
 
 
-                Lleva un registro personal de tus horas trabajadas para verificar que tu nmina es correcta.
+                Lleva un registro personal de tus horas trabajadas para verificar que tu nómina es correcta.
 
 
               </p>
@@ -515,7 +515,7 @@ export default function ControlHorarioPage() {
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
 
 
-                Pequeas empresas
+                Pequeñas empresas
 
 
               </h3>
@@ -524,7 +524,7 @@ export default function ControlHorarioPage() {
               <p className="text-gray-600 dark:text-gray-300">
 
 
-                Solucin simple para que tus empleados registren su asistencia sin complicaciones.
+                Solución simple para que tus empleados registren su asistencia sin complicaciones.
 
 
               </p>
@@ -688,7 +688,7 @@ export default function ControlHorarioPage() {
             <p className="text-sm text-gray-400 max-w-2xl text-center">
 
 
-              Prximamente disponible para todos los usuarios
+              Próximamente disponible para todos los usuarios
 
 
             </p>
