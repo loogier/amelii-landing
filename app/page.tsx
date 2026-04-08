@@ -21,6 +21,15 @@ export default function Home() {
       features: ['Registro automático', 'Cálculo de horas', 'Exportar a PDF'],
       status: 'Beta cerrada',
     },
+    {
+      name: 'FinanzasPlus',
+      description: 'Organiza ingresos, gastos y metas con una vista clara de tus finanzas.',
+      icon: '💸',
+      href: '/finanzasplus',
+      color: 'emerald',
+      features: ['Control de gastos', 'Metas de ahorro', 'Resumen mensual'],
+      status: 'Próximamente',
+    },
   ];
 
   const colorStyles: Record<
@@ -43,6 +52,12 @@ export default function Home() {
       glow: 'from-blue-400/20 via-transparent to-cyan-300/20',
       link: 'text-blue-600 dark:text-blue-300',
       ring: 'ring-blue-200/80 dark:ring-blue-500/30',
+    },
+    emerald: {
+      badge: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-200',
+      glow: 'from-emerald-400/20 via-transparent to-lime-300/20',
+      link: 'text-emerald-600 dark:text-emerald-300',
+      ring: 'ring-emerald-200/80 dark:ring-emerald-500/30',
     },
   };
 
@@ -137,7 +152,7 @@ export default function Home() {
                 </div>
                 <div className="mt-6 rounded-2xl bg-gradient-to-r from-gray-900 to-gray-700 p-4 text-white shadow-lg dark:from-white dark:to-gray-200 dark:text-gray-900">
                   <p className="text-xs uppercase tracking-wide opacity-70">Estado</p>
-                  <p className="mt-2 text-xl font-semibold">2 apps activas</p>
+                  <p className="mt-2 text-xl font-semibold">3 productos publicados</p>
                 </div>
               </div>
             </div>
@@ -171,7 +186,7 @@ export default function Home() {
 
       {/* Apps Grid */}
       <section id="apps" className="mx-auto max-w-7xl px-6 lg:px-8 pb-24">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
           {apps.map((app) => {
             const style = colorStyles[app.color] ?? colorStyles.teal;
             return (
