@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad – Finanzas Plus</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px 16px;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    h1 { color: #14a04b; }
+    h2 { color: #1a1a1a; margin-top: 32px; }
+    a  { color: #14a04b; }
+    footer { margin-top: 48px; font-size: 0.85rem; color: #666; }
+  </style>
+</head>
+<body>
+
+<h1>Política de Privacidad – Finanzas Plus</h1>
+<p><strong>Última actualización:</strong> 21 de abril de 2026</p>
+<p>
+  Esta Política de Privacidad describe cómo <strong>Finanzas Plus</strong>
+  (en adelante "la Aplicación"), desarrollada por <strong>Richad F.</strong>,
+  maneja la información de sus usuarios. Al usar la Aplicación, aceptas las
+  prácticas descritas en este documento.
+</p>
+
+<h2>1. Información que recopilamos</h2>
+<h3>1.1 Datos financieros personales</h3>
+<p>
+  La Aplicación te permite registrar transacciones, cuentas, deudas y
+  presupuestos. Todos estos datos son <strong>almacenados únicamente en tu
+  dispositivo</strong> en una base de datos cifrada. No se transmiten a
+  ningún servidor externo.
+</p>
+
+<h3>1.2 Datos de diagnóstico (crashlytics)</h3>
+<p>
+  La Aplicación utiliza <strong>Firebase Crashlytics</strong> (Google LLC)
+  para detectar y reportar errores. En caso de un fallo, se envía
+  automáticamente información técnica como:
+</p>
+<ul>
+  <li>Modelo y versión del dispositivo Android</li>
+  <li>Versión del sistema operativo</li>
+  <li>Traza del error (stack trace)</li>
+  <li>Hora y fecha del fallo</li>
+</ul>
+<p>
+  Estos reportes <strong>no contienen datos financieros personales</strong>
+  ni información de identificación personal (nombre, correo, etc.).
+</p>
+
+<h3>1.3 Datos biométricos</h3>
+<p>
+  Si activas el desbloqueo con huella dactilar o reconocimiento facial, la
+  Aplicación utiliza la API del sistema operativo Android
+  (<code>BiometricPrompt</code>). <strong>Los datos biométricos nunca salen
+  del dispositivo</strong> y la Aplicación no tiene acceso a ellos; solo
+  recibe un resultado de éxito o fallo del sistema.
+</p>
+
+<h2>2. Permisos utilizados</h2>
+<table style="width:100%;border-collapse:collapse">
+  <thead>
+    <tr style="background:#f0f0f0">
+      <th style="text-align:left;padding:8px;border:1px solid #ddd">Permiso</th>
+      <th style="text-align:left;padding:8px;border:1px solid #ddd">Motivo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px;border:1px solid #ddd">INTERNET</td>
+      <td style="padding:8px;border:1px solid #ddd">Envío de reportes de errores a Firebase Crashlytics</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #ddd">ACCESS_NETWORK_STATE</td>
+      <td style="padding:8px;border:1px solid #ddd">Verificar conectividad antes de enviar reportes de error</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #ddd">USE_BIOMETRIC</td>
+      <td style="padding:8px;border:1px solid #ddd">Desbloqueo opcional con huella dactilar o facial</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #ddd">POST_NOTIFICATIONS</td>
+      <td style="padding:8px;border:1px solid #ddd">Recordatorios de pagos y deudas (opcionales)</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;border:1px solid #ddd">SCHEDULE_EXACT_ALARM</td>
+      <td style="padding:8px;border:1px solid #ddd">Programar recordatorios a hora exacta</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>3. Cómo usamos la información</h2>
+<p>La información recopilada se usa exclusivamente para:</p>
+<ul>
+  <li>Mostrarte tus propios datos financieros dentro de la Aplicación</li>
+  <li>Mejorar la estabilidad de la Aplicación mediante reportes de errores anónimos</li>
+</ul>
+<p>
+  <strong>No vendemos, alquilamos ni compartimos tu información personal</strong>
+  con terceros con fines comerciales o publicitarios.
+</p>
+
+<h2>4. Almacenamiento y seguridad</h2>
+<p>
+  Todos tus datos financieros se almacenan localmente en tu dispositivo
+  usando una base de datos cifrada con <strong>SQLCipher</strong>. La
+  Aplicación no sincroniza datos a la nube de forma automática. La función
+  de copia de seguridad genera un archivo cifrado en tu dispositivo que tú
+  decides dónde guardar.
+</p>
+
+<h2>5. Servicios de terceros</h2>
+<p>La Aplicación integra los siguientes servicios externos:</p>
+<ul>
+  <li>
+    <strong>Firebase Crashlytics</strong> (Google LLC) – Reportes de errores.<br/>
+    Política de privacidad: <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>
+  </li>
+</ul>
+
+<h2>6. Datos de menores</h2>
+<p>
+  La Aplicación no está dirigida a menores de 13 años y no recopila
+  conscientemente información de menores. Si eres padre/tutor y crees que
+  tu hijo ha proporcionado datos, contáctanos para eliminarlos.
+</p>
+
+<h2>7. Tus derechos</h2>
+<p>
+  Dado que todos tus datos financieros residen en tu dispositivo, puedes
+  eliminarlos en cualquier momento desinstalando la Aplicación o usando la
+  función de <em>eliminar todos los datos</em> dentro de la app. Los
+  reportes de errores anónimos en Firebase Crashlytics se eliminan según
+  la política de retención de Google (90 días).
+</p>
+
+<h2>8. Cambios a esta política</h2>
+<p>
+  Podemos actualizar esta Política de Privacidad ocasionalmente. La fecha
+  de "última actualización" al inicio del documento indica cuándo fue
+  revisada por última vez. El uso continuado de la Aplicación tras los
+  cambios implica tu aceptación.
+</p>
+
+<h2>9. Contacto</h2>
+<p>
+  Si tienes preguntas sobre esta política, puedes contactarnos en:<br/>
+  <strong>Richad F.</strong> –
+  <a href="mailto:loogier.dev@gmail.com">loogier.dev@gmail.com</a>
+</p>
+
+<footer>
+  &copy; 2026 Richad F. – Finanzas Plus. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>

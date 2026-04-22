@@ -248,10 +248,10 @@ export default function FinanzasPlusPage() {
               © {new Date().getFullYear()} Todos los derechos reservados
             </p>
             <div className="flex gap-6">
-              <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/finanzasplus/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Política de Privacidad
               </Link>
-              <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/finanzasplus/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Términos de Uso
               </Link>
             </div>
