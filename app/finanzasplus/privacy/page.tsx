@@ -241,10 +241,10 @@ export default function FinanzasPlusPrivacyPage() {
               <li>
                 <strong>Richad F.</strong> -{' '}
                 <a
-                  href="mailto:loogier.dev@gmail.com"
+                  href="mailto:soporte+finanzasplus@loogier.com"
                   className="text-emerald-600 hover:text-emerald-500"
                 >
-                  loogier.dev@gmail.com
+                  soporte+finanzasplus@loogier.com
                 </a>
               </li>
             </ul>
