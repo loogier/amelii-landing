@@ -36,7 +36,11 @@ export function FAQ() {
     },
     {
       question: '¿Cómo elimino mi cuenta y datos?',
-      answer: 'En la app: elimina todas las notas de la papelera. Luego ve a Configuración > "Borrar respaldos de Drive" y "Borrar todas las notas". Los datos en Drive se eliminan automáticamente al desinstalar la app.',
+      answer: 'En la app: elimina todas las notas de la papelera. Luego ve a Configuración > "Borrar respaldos de Drive" y "Borrar todas las notas".
+
+Al desinstalar la app se eliminan los datos locales almacenados en el dispositivo.
+
+Los respaldos guardados en Google Drive no se eliminan automáticamente al desinstalar la app y deben borrarse manualmente desde la opción "Borrar respaldos de Drive".',
     },
   ];
 
@@ -82,7 +86,7 @@ export function FAQ() {
               </button>
               {openIndex === index && (
                 <div className="px-6 pb-6">
-                  <p className="text-gray-600 dark:text-gray-300">{faq.answer}</p>
+                  <p className="text-gray-600 dark:text-gray-300 whitespace-pre-line">{faq.answer}</p>
                 </div>
               )}
             </div>
