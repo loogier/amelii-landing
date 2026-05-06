@@ -97,7 +97,7 @@ export default function Home() {
               <a href="#value" className="hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
                 Enfoque
               </a>
-              <Link href="/privacy" className="hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
+              <Link href="/amelii/privacy" className="hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors">
                 Legal
               </Link>
             </div>
@@ -244,10 +244,10 @@ export default function Home() {
               © {new Date().getFullYear()} Todos los derechos reservados
             </p>
             <div className="flex gap-6">
-              <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/amelii/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Política de Privacidad
               </Link>
-              <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
+              <Link href="/amelii/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
                 Términos de Uso
               </Link>
             </div>

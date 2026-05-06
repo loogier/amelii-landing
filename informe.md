@@ -55,3 +55,25 @@ Este informe lista solo funciones verificables en el código de la aplicación.
 **Ayuda y soporte**
 - Centro de ayuda con preguntas frecuentes dentro de la app. (`lib/views/ayuda_view.dart`)
 - Enviar feedback por email (sugerencias, reportes de error o preguntas). (`lib/views/feedback_screen.dart`, `lib/services/feedback_service.dart`)
+
+---
+
+# Mapa de rutas legales por app (Landing)
+
+Este bloque valida que cada producto tenga sus documentos legales en rutas exclusivas.
+
+## Amelii
+- Privacidad: /amelii/privacy
+- Términos: /amelii/terms
+
+## Control Horario
+- Privacidad: /control-horario/privacy
+- Términos: /control-horario/terms
+
+## Finanzas Plus
+- Privacidad: /finanzasplus/privacy
+- Términos: /finanzasplus/terms
+
+## Compatibilidad (rutas legacy)
+- /privacy redirige a /amelii/privacy
+- /terms redirige a /amelii/terms

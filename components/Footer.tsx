@@ -64,12 +64,12 @@ export function Footer() {
               <h3 className="text-sm font-semibold text-white">Legal</h3>
               <ul className="mt-4 space-y-2">
                 <li>
-                  <a href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <a href="/amelii/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
                     Política de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  <a href="/amelii/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
                     Términos de Uso
                   </a>
                 </li>
