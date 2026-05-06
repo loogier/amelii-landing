@@ -36,7 +36,7 @@ export function FAQ() {
     },
     {
       question: '¿Cómo elimino mi cuenta y datos?',
-      answer: `En la app: elimina todas las notas de la papelera. Luego ve a Configuración > "Borrar respaldos de Drive" y "Borrar todas las notas".\n\nAl desinstalar la app se eliminan los datos locales almacenados en el dispositivo.\n\nLos respaldos guardados en Google Drive no se eliminan automáticamente al desinstalar la app y deben borrarse manualmente desde la opción "Borrar respaldos de Drive".`,
+      answer: `En la app: elimina las notas y vacía la papelera. Luego ve a Configuración y usa "Borrar respaldos de Drive" y "Borrar todas las notas".\n\nImportante: al desinstalar Amelii se eliminan los datos locales del dispositivo, pero los respaldos en Google Drive no se eliminan automáticamente y deben borrarse manualmente desde la app.`,
     },
   ];
 

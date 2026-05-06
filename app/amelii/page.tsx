@@ -3,6 +3,7 @@ import { Features } from '@/components/Features';
 import { Security } from '@/components/Security';
 import { Screenshots } from '@/components/Screenshots';
 import { FAQ } from '@/components/FAQ';
+import { DataDeletion } from '@/components/DataDeletion';
 import { Footer } from '@/components/Footer';
 import { Metadata } from 'next';
 
@@ -25,6 +26,7 @@ export default function AmeliiPage() {
       <Security />
       <Screenshots />
       <FAQ />
+      <DataDeletion />
       <Footer />
     </main>
   );
