@@ -306,7 +306,7 @@ export default function AmeliiTermsPage() {
               Si tienes preguntas sobre estos Términos de Uso, contáctanos:
             </p>
             <ul className="list-none text-gray-600 dark:text-gray-300 space-y-2">
-              <li><strong>Email:</strong> legal@amelii.app (placeholder - actualizar con email real)</li>
+              <li><strong>Email:</strong> soporte+amelii@loogier.com (placeholder - actualizar con email real)</li>
               <li><strong>Desde la app:</strong> Configuración → Ayuda → Enviar Feedback</li>
             </ul>
           </section>
