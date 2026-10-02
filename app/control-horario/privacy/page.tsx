@@ -203,7 +203,7 @@ export default function ControlHorarioPrivacyPage() {
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               No compartimos, vendemos ni alquilamos tu información personal a terceros.
-              Control Horario usa los siguientes servicios externos:
+              Control Horario usa el siguiente servicio externo, y solo de forma opcional:
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left text-sm text-gray-600 dark:text-gray-300">
@@ -216,7 +216,7 @@ export default function ControlHorarioPrivacyPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-gray-200 dark:border-gray-700">
+                  <tr>
                     <td className="py-3 pr-4">Google Drive (Google LLC)</td>
                     <td className="py-3 pr-4">Respaldo opcional de tus registros</td>
                     <td className="py-3 pr-4">Solo si activas el respaldo</td>
@@ -232,31 +232,15 @@ export default function ControlHorarioPrivacyPage() {
                       </a>
                     </td>
                   </tr>
-                  <tr>
-                    <td className="py-3 pr-4">GitHub (GitHub, Inc.)</td>
-                    <td className="py-3 pr-4">Descargar las notas de novedades de cada versión</td>
-                    <td className="py-3 pr-4">Automáticamente, una vez por versión</td>
-                    <td className="py-3">
-                      <strong>Dirección IP</strong> y el número de versión de la app.{' '}
-                      <a
-                        href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline"
-                      >
-                        Política de GitHub
-                      </a>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-gray-600 dark:text-gray-300 mt-4">
-              <strong>Sobre la consulta a GitHub:</strong> la app descarga un archivo público con las
-              notas de la versión desde <code>raw.githubusercontent.com</code>. No se envía ningún dato
-              tuyo: es una petición de solo lectura, en la que la dirección IP es visible para GitHub
-              por el funcionamiento técnico del protocolo, igual que al visitar cualquier sitio web.
-              Si no hay conexión, la app usa las notas guardadas en caché y funciona con normalidad.
+              <strong>Sobre las notas de versión:</strong> para mostrarte qué mejora trae cada
+              actualización, la app descarga un archivo con esas notas desde el sitio oficial{' '}
+              <em>loogier.com</em>, del propio desarrollador. Es una petición de solo lectura: no se
+              envía ningún dato tuyo y no interviene ninguna empresa externa. Si no hay conexión, la
+              app funciona con normalidad y muestra un texto genérico.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mt-4">
               Control Horario <strong>no utiliza</strong>: analítica, publicidad, redes sociales,
@@ -327,8 +311,9 @@ export default function ControlHorarioPrivacyPage() {
               <strong>En resumen:</strong> Control Horario está diseñada para que registres tus horas
               de trabajo con el mínimo acceso posible a tu información. Todos tus datos permanecen en
               tu dispositivo y no se envían al desarrollador. Google Drive solo se usa si tú lo
-              activas, y los backups viajan cifrados. La única conexión automática a internet es la
-              descarga del archivo público de novedades desde GitHub, que no incluye ningún dato tuyo.
+              activas, y los backups viajan cifrados. La app no se conecta a ningún servicio de
+              terceros: las notas de cada actualización se descargan del propio sitio del
+              desarrollador, sin compartir ningún dato tuyo.
             </p>
           </section>
         </div>

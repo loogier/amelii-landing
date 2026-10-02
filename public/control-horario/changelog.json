@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "versionCode": 4027,
+      "versionName": "1.0.22",
+      "notes": "• Nuevo: enlace a la Política de Privacidad desde el menú de Configuración\n• Política de privacidad actualizada para detallar las conexiones de la app\n• Mejoras y correcciones de errores"
+    },
+    {
+      "versionCode": 4026,
+      "versionName": "1.0.21",
+      "notes": "• Nuevo: ordena tus registros con un toque desde la barra superior (más recientes primero o más antiguos primero)\n• La app recuerda el orden que elegiste, incluso al cerrarla\n• El PDF y el reporte respetan el mismo orden que ves en pantalla\n• Filtros por fecha más rápidos con historiales grandes"
+    },
+    {
+      "versionCode": 4025,
+      "versionName": "1.0.20",
+      "notes": "• Notas de versión disponibles para todos los usuarios\n• Mejoras de estabilidad en la compilación y actualización\n• Correcciones en Google Drive y seguridad\n• Experiencia de uso más clara y confiable"
+    }
+  ],
+  "default": "• Mejoras y correcciones de errores"
+}
