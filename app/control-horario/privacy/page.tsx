@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Politica de Privacidad - Control Horario',
-  description: 'Politica de privacidad de Control Horario, la app para registrar horas trabajadas.',
+  title: 'Política de Privacidad - Control Horario',
+  description: 'Política de privacidad de Control Horario, la app para registrar horas trabajadas.',
 };
 
 export default function ControlHorarioPrivacyPage() {
@@ -17,12 +17,12 @@ export default function ControlHorarioPrivacyPage() {
         </Link>
 
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl mb-8">
-          Politica de Privacidad
+          Política de Privacidad
         </h1>
 
         <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
           <p className="text-gray-600 dark:text-gray-300">
-            <strong>Ultima actualizacion:</strong> 4 de marzo de 2026
+            <strong>Última actualización:</strong> 2 de octubre de 2026
           </p>
 
           <section className="mt-8">
@@ -90,7 +90,9 @@ export default function ControlHorarioPrivacyPage() {
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Todos tus datos se almacenan localmente en tu dispositivo usando una base de datos Hive
-              cifrada. Los datos nunca se envian a servidores externos ni a terceros.
+              cifrada. La app <strong>no envía ninguno de tus datos al desarrollador</strong>: no hay
+              cuentas de usuario, ni telemetría, ni analítica. La única conexión de red automática que
+              realiza la app se detalla en la sección 11.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
               La app realiza backups locales automáticos y manuales. Puedes restaurar cualquier backup
@@ -107,21 +109,21 @@ export default function ControlHorarioPrivacyPage() {
               Drive. Esta función es completamente opcional:
             </p>
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
-              <li>Solo se activa si tu la configuras desde los ajustes</li>
-              <li>Los backups se suben cifrados a una carpeta privada de tu Google Drive, a la que solo tu puedes acceder</li>
-              <li>La app solicita permisos de Google Drive unicamente para leer y escribir en esa carpeta</li>
+              <li>Solo se activa si tú la configuras desde los ajustes</li>
+              <li>Los backups se suben cifrados a una carpeta privada de tu Google Drive, a la que solo tú puedes acceder</li>
+              <li>La app solicita permisos de Google Drive únicamente para leer y escribir en esa carpeta</li>
               <li>No accedemos ni leemos ningún otro archivo de tu Google Drive</li>
               <li>Puedes desconectar Google Drive en cualquier momento desde la configuración de la app o desde tu cuenta de Google</li>
             </ul>
             <p className="text-gray-600 dark:text-gray-300 mt-4">
-              El uso de los servicios de Google esta sujeto a la{' '}
+              El uso de los servicios de Google está sujeto a la{' '}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-500"
               >
-                Politica de Privacidad de Google
+                Política de privacidad de Google
               </a>
               .
             </p>
@@ -148,7 +150,7 @@ export default function ControlHorarioPrivacyPage() {
             <ul className="list-disc pl-6 text-gray-600 dark:text-gray-300 space-y-2">
               <li><strong>Cifrado local:</strong> base de datos cifrada con AES-256</li>
               <li><strong>Claves seguras:</strong> las claves de cifrado se almacenan en Android Keystore, el almacén seguro del sistema operativo</li>
-              <li><strong>PIN y patrón:</strong> almacenados usando PBKDF2 con sal aleatoria; jamás se guarda el valor en texto plano</li>
+              <li><strong>PIN y patrón:</strong> se almacenan mediante PBKDF2 con sal aleatoria y un secreto adicional; jamás se guarda el valor en texto plano</li>
               <li><strong>Biometría:</strong> gestionada por el sistema Android (BiometricPrompt API); la app nunca accede a los datos biométricos del dispositivo</li>
               <li><strong>Acceso con contraseña:</strong> los backups cifrados portables usan AES-256-GCM con clave derivada de tu contraseña</li>
             </ul>
@@ -199,16 +201,90 @@ export default function ControlHorarioPrivacyPage() {
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
               11. Compartir información con terceros
             </h2>
-            <p className="text-gray-600 dark:text-gray-300">
-              No compartimos, vendemos ni alquilamos tu información personal a terceros. La única
-              interacción con un servicio externo es Google Drive, y solo si tú activas esa función
-              voluntariamente. En ese caso, aplica la política de privacidad de Google.
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              No compartimos, vendemos ni alquilamos tu información personal a terceros.
+              Control Horario usa los siguientes servicios externos:
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm text-gray-600 dark:text-gray-300">
+                <thead>
+                  <tr className="border-b border-gray-300 dark:border-gray-600">
+                    <th className="py-2 pr-4 font-semibold">Servicio</th>
+                    <th className="py-2 pr-4 font-semibold">Propósito</th>
+                    <th className="py-2 pr-4 font-semibold">Cuándo se contacta</th>
+                    <th className="py-2 font-semibold">Datos involucrados</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-gray-200 dark:border-gray-700">
+                    <td className="py-3 pr-4">Google Drive (Google LLC)</td>
+                    <td className="py-3 pr-4">Respaldo opcional de tus registros</td>
+                    <td className="py-3 pr-4">Solo si activas el respaldo</td>
+                    <td className="py-3">
+                      Tus registros de horas, y solo en tu propia cuenta de Google.{' '}
+                      <a
+                        href="https://policies.google.com/privacy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        Política de Google
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="py-3 pr-4">GitHub (GitHub, Inc.)</td>
+                    <td className="py-3 pr-4">Descargar las notas de novedades de cada versión</td>
+                    <td className="py-3 pr-4">Automáticamente, una vez por versión</td>
+                    <td className="py-3">
+                      <strong>Dirección IP</strong> y el número de versión de la app.{' '}
+                      <a
+                        href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                      >
+                        Política de GitHub
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mt-4">
+              <strong>Sobre la consulta a GitHub:</strong> la app descarga un archivo público con las
+              notas de la versión desde <code>raw.githubusercontent.com</code>. No se envía ningún dato
+              tuyo: es una petición de solo lectura, en la que la dirección IP es visible para GitHub
+              por el funcionamiento técnico del protocolo, igual que al visitar cualquier sitio web.
+              Si no hay conexión, la app usa las notas guardadas en caché y funciona con normalidad.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300 mt-4">
+              Control Horario <strong>no utiliza</strong>: analítica, publicidad, redes sociales,
+              notificaciones push externas, ni rastreo de sesiones o de pulsaciones de teclado.
             </p>
           </section>
 
           <section className="mt-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              12. Cambios a esta política
+              12. Privacidad de menores
+            </h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              Control Horario es una aplicación de productividad profesional, no un servicio dirigido
+              a menores. <strong>La app no ofrece registro ni cuenta de usuario</strong>, por lo que
+              no solicita ni almacena edad, nombre, correo electrónico ni ningún otro dato
+              identificativo. No se recopila información personal de ningún usuario,
+              independientemente de su edad.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Si utilizas la app para registrar las horas de terceros (por ejemplo, de empleados),
+              eres tú quien determina qué datos introduce y quien asume la responsabilidad sobre ese
+              tratamiento.
+            </p>
+          </section>
+
+          <section className="mt-8">
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
+              13. Cambios a esta política
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
               Podemos actualizar esta política ocasionalmente. Publicaremos los cambios en esta
@@ -218,7 +294,7 @@ export default function ControlHorarioPrivacyPage() {
 
           <section className="mt-8" id="eliminar-cuenta">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              13. Eliminación de cuenta y datos
+              14. Eliminación de cuenta y datos
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Control Horario no crea cuentas propias en servidores del desarrollador.
@@ -236,10 +312,10 @@ export default function ControlHorarioPrivacyPage() {
 
           <section className="mt-8">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
-              14. Contacto
+              15. Contacto
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Si tienes preguntas sobre esta Politica de Privacidad, contactanos:
+              Si tienes preguntas sobre esta Política de Privacidad, contáctanos:
             </p>
             <ul className="list-none text-gray-600 dark:text-gray-300 space-y-2">
               <li><strong>Email:</strong> soporte+controlhorario@loogier.com</li>
@@ -248,9 +324,11 @@ export default function ControlHorarioPrivacyPage() {
 
           <section className="mt-12 p-6 bg-blue-50 dark:bg-blue-950/20 rounded-lg">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              <strong>En resumen:</strong> Control Horario esta disenada para que registres tus horas
-              de trabajo con el minimo acceso posible a tu informacion. Todos tus datos permanecen en
-              tu dispositivo. Google Drive solo se usa si tu lo activas, y los backups viajan cifrados.
+              <strong>En resumen:</strong> Control Horario está diseñada para que registres tus horas
+              de trabajo con el mínimo acceso posible a tu información. Todos tus datos permanecen en
+              tu dispositivo y no se envían al desarrollador. Google Drive solo se usa si tú lo
+              activas, y los backups viajan cifrados. La única conexión automática a internet es la
+              descarga del archivo público de novedades desde GitHub, que no incluye ningún dato tuyo.
             </p>
           </section>
         </div>
