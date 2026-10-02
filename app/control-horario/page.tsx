@@ -81,9 +81,12 @@ export default function ControlHorarioPage() {
               </Link>
             </div>
 
-            <span className="rounded-full bg-gray-400 px-4 py-2 text-sm font-semibold text-white shadow-md cursor-not-allowed">
-              Descarga deshabilitada
-            </span>
+            <a
+              href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario"
+              className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md transition-colors hover:bg-blue-500"
+            >
+              Pruébala gratis
+            </a>
           </nav>
         </header>
 
@@ -101,14 +104,15 @@ export default function ControlHorarioPage() {
                 Registra entrada y salida en segundos, calcula horas por tipo de turno y entrega reportes listos en PDF.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
-                <span
-                  className="rounded-md bg-gray-400 px-8 py-3.5 text-lg font-semibold text-white shadow-sm inline-flex items-center gap-2 cursor-not-allowed"
+                <a
+                  href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario&body=Hola%2C%20me%20gustar%C3%ADa%20probar%20Control%20Horario.%20%C2%BFPodr%C3%ADas%20enviarme%20el%20enlace%3F"
+                  className="rounded-md bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm inline-flex items-center gap-2 transition-colors hover:bg-blue-500"
                 >
-                  <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                   </svg>
-                  Descarga temporalmente deshabilitada
-                </span>
+                  Escríbeme para probarla
+                </a>
                 <Link
                   href="/"
                   className="text-sm font-semibold leading-6 text-gray-900 dark:text-white"
@@ -118,7 +122,7 @@ export default function ControlHorarioPage() {
               </div>
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
                 <span className="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-white/10 px-3 py-1 ring-1 ring-gray-200/70 dark:ring-white/10">
-                  APK no disponible temporalmente
+                  Totalmente gratis
                 </span>
                 <span>Android 7.0+ (API 24)</span>
               </div>
@@ -601,6 +605,33 @@ export default function ControlHorarioPage() {
                 Sí. Puedes configurar recordatorios de olvido de horas, la hora diaria y el intervalo desde Configuración.
               </p>
             </details>
+
+            <details className="group rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+              <summary className="flex cursor-pointer items-center justify-between font-semibold text-gray-900 dark:text-white">
+                ¿Tiene algún coste?
+                <span className="ml-4 flex-shrink-0"></span>
+              </summary>
+              <p className="mt-4 text-gray-600 dark:text-gray-300">
+                No. Control Horario es completamente gratis: sin suscripciones, sin anuncios y sin compras dentro de la app.
+              </p>
+            </details>
+
+            <details className="group rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+              <summary className="flex cursor-pointer items-center justify-between font-semibold text-gray-900 dark:text-white">
+                ¿Cómo puedo probarla?
+                <span className="ml-4 flex-shrink-0"></span>
+              </summary>
+              <p className="mt-4 text-gray-600 dark:text-gray-300">
+                Escríbeme a{' '}
+                <a
+                  href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario"
+                  className="font-semibold text-blue-600 hover:underline dark:text-blue-400"
+                >
+                  soporte+controlhorario@loogier.com
+                </a>{' '}
+                y te envío el enlace de descarga. Está disponible para Android 7.0 o superior.
+              </p>
+            </details>
           </div>
 
 
@@ -631,7 +662,7 @@ export default function ControlHorarioPage() {
               <h2 className="text-3xl font-bold text-white sm:text-4xl">
 
 
-                Descarga Control Horario
+                ¿Quieres probar Control Horario?
 
 
               </h2>
@@ -640,7 +671,7 @@ export default function ControlHorarioPage() {
               <p className="mt-4 text-lg text-gray-300">
 
 
-                APK v1.0.1  Android 7.0+ (API 24)
+                La app es completamente gratis. Escríbeme y te envío el enlace de descarga.
 
 
               </p>
@@ -649,29 +680,27 @@ export default function ControlHorarioPage() {
             </div>
 
 
-            <span
-              className="rounded-md bg-gray-400 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors inline-flex items-center gap-3 cursor-not-allowed"
+            <a
+              href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario&body=Hola%2C%20me%20gustar%C3%ADa%20probar%20Control%20Horario.%20%C2%BFPodr%C3%ADas%20enviarme%20el%20enlace%3F"
+              className="rounded-md bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors inline-flex items-center gap-3 hover:bg-blue-500"
             >
 
 
-              <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
 
 
-                <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
 
 
               </svg>
 
 
-              Descarga temporalmente deshabilitada
-            </span>
-
+              Escribir a soporte+controlhorario@loogier.com
+            </a>
 
             <p className="text-sm text-gray-400 max-w-2xl text-center">
 
-
-              Próximamente disponible para todos los usuarios
-
+              Compatible con Android 7.0 o superior. Sin coste, sin suscripciones y sin anuncios.
 
             </p>
 
