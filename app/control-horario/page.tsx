@@ -295,7 +295,7 @@ export default function ControlHorarioPage() {
                 alt="Pantalla de inicio de sesión"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Inicio de sesión</h3>
@@ -309,7 +309,7 @@ export default function ControlHorarioPage() {
                 alt="Lista de registros"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Registros</h3>
@@ -323,7 +323,7 @@ export default function ControlHorarioPage() {
                 alt="Vista en tabla"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Vista tabla</h3>
@@ -337,7 +337,7 @@ export default function ControlHorarioPage() {
                 alt="Edición de registro"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Edición</h3>
@@ -351,7 +351,7 @@ export default function ControlHorarioPage() {
                 alt="Menú principal"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Menú</h3>
@@ -365,7 +365,7 @@ export default function ControlHorarioPage() {
                 alt="Personalización"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Personalización</h3>
@@ -379,7 +379,7 @@ export default function ControlHorarioPage() {
                 alt="Configuración de seguridad"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Seguridad</h3>
@@ -393,7 +393,7 @@ export default function ControlHorarioPage() {
                 alt="Feedback"
                 width={300}
                 height={600}
-                className="w-full h-auto"
+                className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
                 <h3 className="font-semibold text-gray-900 dark:text-white">Feedback</h3>
