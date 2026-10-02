@@ -294,7 +294,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/login.png"
                 alt="Pantalla de inicio de sesión"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -308,7 +308,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/registros.png"
                 alt="Lista de registros"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -322,7 +322,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/vista-tabla.png"
                 alt="Vista en tabla"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -336,7 +336,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/edicion.png"
                 alt="Edición de registro"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -350,7 +350,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/menu.jpg"
                 alt="Menú principal"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -364,7 +364,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/personalizar.jpg"
                 alt="Personalización"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -378,7 +378,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/seguridad.png"
                 alt="Configuración de seguridad"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
@@ -392,7 +392,7 @@ export default function ControlHorarioPage() {
                 src="/screenshots/control-horario/feedback.png"
                 alt="Feedback"
                 width={300}
-                height={600}
+                height={375}
                 className="w-full aspect-[4/5] object-cover object-top"
               />
               <div className="p-4">
