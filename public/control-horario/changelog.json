@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "versionCode": 4028,
+      "versionName": "1.0.23",
+      "notes": "• Las notas de cada actualización ahora se sirven desde el sitio oficial de la app, sin intermediarios externos\n• Mejoras y correcciones de errores"
+    },
+    {
       "versionCode": 4027,
       "versionName": "1.0.22",
       "notes": "• Nuevo: enlace a la Política de Privacidad desde el menú de Configuración\n• Política de privacidad actualizada para detallar las conexiones de la app\n• Mejoras y correcciones de errores"
