@@ -2,6 +2,27 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 
+/// Icono de Instagram como componente, para poder reutilizarlo con distintos
+/// tamanos en la barra superior, el hero y el pie sin duplicar el trazo.
+function InstagramIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+    </svg>
+  );
+}
+
 
 
 
@@ -82,10 +103,12 @@ export default function ControlHorarioPage() {
             </div>
 
             <a
-              href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario"
+              href="https://www.instagram.com/loogierdev"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-md transition-colors hover:bg-blue-500"
             >
-              Pruébala gratis
+              Solicitar acceso
             </a>
           </nav>
         </header>
@@ -105,13 +128,13 @@ export default function ControlHorarioPage() {
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <a
-                  href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario&body=Hola%2C%20me%20gustar%C3%ADa%20probar%20Control%20Horario.%20%C2%BFPodr%C3%ADas%20enviarme%20el%20enlace%3F"
+                  href="https://www.instagram.com/loogierdev"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="rounded-md bg-blue-600 px-8 py-3.5 text-lg font-semibold text-white shadow-sm inline-flex items-center gap-2 transition-colors hover:bg-blue-500"
                 >
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                  </svg>
-                  Escríbeme para probarla
+                  <InstagramIcon className="h-6 w-6" />
+                  Solicitar acceso en Instagram
                 </a>
                 <Link
                   href="/"
@@ -123,6 +146,9 @@ export default function ControlHorarioPage() {
               <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
                 <span className="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-white/10 px-3 py-1 ring-1 ring-gray-200/70 dark:ring-white/10">
                   Totalmente gratis
+                </span>
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-white/10 px-3 py-1 ring-1 ring-gray-200/70 dark:ring-white/10">
+                  Acceso por invitación
                 </span>
                 <span>Android 7.0+ (API 24)</span>
               </div>
@@ -622,14 +648,20 @@ export default function ControlHorarioPage() {
                 <span className="ml-4 flex-shrink-0"></span>
               </summary>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
-                Escríbeme a{' '}
+                Escríbeme por{' '}
                 <a
-                  href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario"
-                  className="font-semibold text-blue-600 hover:underline dark:text-blue-400"
+                  href="https://www.instagram.com/loogierdev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 font-semibold text-blue-600 hover:underline dark:text-blue-400"
                 >
-                  soporte+controlhorario@loogier.com
+                  <InstagramIcon className="h-4 w-4" />
+                  Instagram
                 </a>{' '}
-                y te envío el enlace de descarga. Está disponible para Android 7.0 o superior.
+                y te añado como probador. La app está en fase de pruebas: el acceso se
+                concede por invitación y necesito el correo de tu cuenta de Google
+                para habilitarte la descarga. Es gratis y no se publica en ninguna
+                parte.
               </p>
             </details>
           </div>
@@ -671,7 +703,7 @@ export default function ControlHorarioPage() {
               <p className="mt-4 text-lg text-gray-300">
 
 
-                La app es completamente gratis. Escríbeme y te envío el enlace de descarga.
+                La app es completamente gratis. La estoy probando con un grupo reducido, así que el acceso es por invitación.
 
 
               </p>
@@ -681,26 +713,22 @@ export default function ControlHorarioPage() {
 
 
             <a
-              href="mailto:soporte+controlhorario@loogier.com?subject=Quiero%20probar%20Control%20Horario&body=Hola%2C%20me%20gustar%C3%ADa%20probar%20Control%20Horario.%20%C2%BFPodr%C3%ADas%20enviarme%20el%20enlace%3F"
+              href="https://www.instagram.com/loogierdev"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-md bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-colors inline-flex items-center gap-3 hover:bg-blue-500"
             >
 
 
-              <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <InstagramIcon className="h-7 w-7" />
 
 
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-
-
-              </svg>
-
-
-              Escribir a soporte+controlhorario@loogier.com
+              Solicitar acceso en Instagram
             </a>
 
             <p className="text-sm text-gray-400 max-w-2xl text-center">
 
-              Compatible con Android 7.0 o superior. Sin coste, sin suscripciones y sin anuncios.
+              Compatible con Android 7.0 o superior. Sin coste, sin suscripciones y sin anuncios. Está en fase de pruebas: el acceso se concede por invitación y necesito el correo de tu cuenta de Google para habilitarte la descarga. No se publica en ninguna parte.
 
             </p>
 
