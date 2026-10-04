@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "versionCode": 4030,
+      "versionName": "1.0.25",
+      "notes": "• Ahora puedes respaldar tus registros en Google Drive\n• Nuevo: ordena tus registros con un toque, de más recientes a más antiguos. La app recuerda tu elección y el PDF respeta el mismo orden que ves en pantalla\n• Filtros por fecha hasta 20 veces más rápidos con historiales grandes\n• Nuevo: consulta la Política de Privacidad desde Configuración\n• Mejoras de seguridad y estabilidad"
+    },
+    {
       "versionCode": 4029,
       "versionName": "1.0.24",
       "notes": "• Nuevo: ordena tus registros con un toque, de más recientes a más antiguos. La app recuerda tu elección y el PDF respeta el mismo orden que ves en pantalla\n• Filtros por fecha hasta 20 veces más rápidos con historiales grandes\n• Nuevo: consulta la Política de Privacidad desde Configuración\n• Mejoras de seguridad y estabilidad"
