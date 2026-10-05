@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "versionCode": 4032,
+      "versionName": "1.0.26",
+      "notes": "• Nuevo: consulta el historial completo de novedades desde Configuración, con el detalle de cada versión\n• Nuevo: recibes un aviso cuando hay novedades que aún no has visto\n• Puedes borrar del teléfono las versiones que ya no te interesen, o todas, y deshacer el borrado\n• El respaldo en Google Drive sigue funcionando correctamente"
+    },
+    {
       "versionCode": 4031,
       "versionName": "1.0.25",
       "notes": "• El respaldo en Google Drive ya funciona correctamente\n• Nuevo: ordena tus registros con un toque, de más recientes a más antiguos. La app recuerda tu elección y el PDF respeta el mismo orden que ves en pantalla\n• Filtros por fecha hasta 20 veces más rápidos con historiales grandes\n• Nuevo: consulta la Política de Privacidad desde Configuración\n• Mejoras de seguridad y estabilidad"
