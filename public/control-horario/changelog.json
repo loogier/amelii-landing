@@ -1,6 +1,11 @@
 {
   "versions": [
     {
+      "versionCode": 4033,
+      "versionName": "1.0.26",
+      "notes": "• Nuevo: consulta el historial completo de novedades desde Configuración, con el detalle de cada versión\n• Nuevo: recibes un aviso cuando hay novedades que aún no has visto\n• Puedes borrar del teléfono las versiones que ya no te interesen, o todas, y deshacer el borrado\n• El aviso de versiones borradas se puede cerrar, y vuelve a aparecer si borras otra\n• El respaldo en Google Drive sigue funcionando correctamente"
+    },
+    {
       "versionCode": 4032,
       "versionName": "1.0.26",
       "notes": "• Nuevo: consulta el historial completo de novedades desde Configuración, con el detalle de cada versión\n• Nuevo: recibes un aviso cuando hay novedades que aún no has visto\n• Puedes borrar del teléfono las versiones que ya no te interesen, o todas, y deshacer el borrado\n• El respaldo en Google Drive sigue funcionando correctamente"
